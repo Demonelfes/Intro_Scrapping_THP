@@ -30,7 +30,7 @@ def crazy_scrapeur
 
   currencies =
     name_array.zip(value_array).map { |name, value| { name => value } }
-  return currencies.class
+  return currencies
 end
 
 def perform
